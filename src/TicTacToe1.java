@@ -9,10 +9,10 @@ class TicTacToe1{
 	static ArrayList<Integer> player2Positions = new ArrayList<Integer>();
 	public static void main(String[] args) {
 		char[][] gameBoard = {{'1','|','2','|','3',},
-							  {'-','+','-','+','-',},
-							  {'4','|','5','|','6',},
-							  {'-','+','-','+','-',},
-							  {'7','|','8','|','9',}};
+				     {'-','+','-','+','-',},
+		         	     {'4','|','5','|','6',},
+				     {'-','+','-','+','-',},
+				     {'7','|','8','|','9',}};
 		printGameBoard(gameBoard);
 		while(true) {
 			System.out.println("Player1's Turn...");
